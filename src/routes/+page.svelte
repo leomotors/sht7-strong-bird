@@ -31,5 +31,5 @@
     </div>
   {/each}
 
-  <p>Your User Id: {$page.data.userId}</p>
+  <p>Your User Id (=== Your Password) = {$page.data.userId}</p>
 </main>

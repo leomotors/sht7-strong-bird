@@ -14,7 +14,8 @@ export const POST = (async ({ locals }) => {
     update: {},
   });
 
-  if (new Date(pieyon.lastHeartbeat).getTime() + 6900 > Date.now()) {
+  // allow up to 500ms error (hope no one use this to cheat)
+  if (new Date(pieyon.lastHeartbeat).getTime() + 9500 > Date.now()) {
     // Too frequent heartbeat
     throw error(400, 'Too frequent heartbeat');
   }

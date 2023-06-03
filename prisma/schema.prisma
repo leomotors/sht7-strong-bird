@@ -22,12 +22,24 @@ model Ticket {
 model User {
   id String @id @default(cuid())
 
-  pieyon Pieyon?
+  yellowQuiz YellowQuiz?
+  pieyon     Pieyon?
 
   @@map("user")
 }
 
 // Challenges
+
+model YellowQuiz {
+  userId String @id @map("user_id")
+  user   User   @relation(fields: [userId], references: [id])
+
+  completed Boolean @default(false)
+
+  currentQuiz Int @default(0) @map("current_quiz")
+
+  @@map("yellow_quiz")
+}
 
 model Pieyon {
   userId String @id @map("user_id")

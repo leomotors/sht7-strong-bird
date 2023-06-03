@@ -16,6 +16,7 @@ const config = {
     adapter: adapter(),
     alias: {
       $: path.resolve('src'),
+      $data: path.resolve('src/data'),
     },
   },
 };

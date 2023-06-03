@@ -8,6 +8,7 @@ const PIEYON_GOAL = 360;
 export const POST = (async ({ locals }) => {
   const { userId } = locals;
 
+  // Create if not exist
   const pieyon = await prisma.pieyon.upsert({
     where: { userId },
     create: { userId },

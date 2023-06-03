@@ -18,3 +18,25 @@ model Ticket {
 
   @@map("ticket")
 }
+
+model User {
+  id String @id @default(cuid())
+
+  pieyon Pieyon?
+
+  @@map("user")
+}
+
+// Challenges
+
+model Pieyon {
+  userId String @id @map("user_id")
+  user   User   @relation(fields: [userId], references: [id])
+
+  completed Boolean @default(false)
+
+  heartbeats    Int      @default(1)
+  lastHeartbeat DateTime @default(now()) @map("last_heartbeat")
+
+  @@map("pieyon")
+}

@@ -18,5 +18,10 @@ await prisma.ticket.createMany({
       title: 'แบบทดสอบความรักชาติ',
       code: 'MOCK_YELLOW_QUIZ',
     },
+    {
+      gameId: 'pieyon',
+      title: 'ぴえヨンチャーレンジ',
+      code: 'MOCK_PIEYON',
+    },
   ],
 });

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { page } from '$app/stores';
+
   import type { PageData } from './$types';
 
   export let data: PageData;
@@ -28,4 +30,6 @@
       </p>
     </div>
   {/each}
+
+  <p>Your User Id: {$page.data.userId}</p>
 </main>

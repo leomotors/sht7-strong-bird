@@ -1,0 +1,4 @@
+{
+  "vscord.enabled": false,
+  "scss.lint.unknownAtRules": "ignore"
+}

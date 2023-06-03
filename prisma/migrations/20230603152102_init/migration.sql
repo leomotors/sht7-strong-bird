@@ -17,8 +17,8 @@ CREATE TABLE "user" (
 CREATE TABLE "pieyon" (
     "user_id" TEXT NOT NULL,
     "completed" BOOLEAN NOT NULL DEFAULT false,
-    "heartbeats" INTEGER NOT NULL DEFAULT 1,
-    "last_heartbeat" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "heartbeats" INTEGER NOT NULL DEFAULT 0,
+    "last_heartbeat" TIMESTAMP(3) NOT NULL DEFAULT '1970-01-01 00:00:00 +00:00',
 
     CONSTRAINT "pieyon_pkey" PRIMARY KEY ("user_id")
 );

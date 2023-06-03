@@ -35,8 +35,8 @@ model Pieyon {
 
   completed Boolean @default(false)
 
-  heartbeats    Int      @default(1)
-  lastHeartbeat DateTime @default(now()) @map("last_heartbeat")
+  heartbeats    Int      @default(0)
+  lastHeartbeat DateTime @default("1970-01-01T00:00:00Z") @map("last_heartbeat")
 
   @@map("pieyon")
 }

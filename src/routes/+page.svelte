@@ -5,8 +5,6 @@
   import TicketStatus from './TicketStatus.svelte';
 
   export let data: PageData;
-
-  console.log({ data });
 </script>
 
 <main class="flex flex-col items-center gap-4 p-16 text-center">

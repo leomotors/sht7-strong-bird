@@ -18,6 +18,8 @@
 
   async function handleSubmit() {
     loading = true;
+    error = '';
+    result = '';
 
     const answersArray = answer.trim().split('\n');
     if (answersArray.length !== 100) {
@@ -33,6 +35,22 @@
       error = 'All answers should be number';
       return;
     }
+
+    const response = (await fetch(`/flowchart/${id}`, {
+      method: 'POST',
+      body: JSON.stringify(numbers),
+    }).then((r) => r.json())) as
+      | { correct: true; code: string }
+      | { correct: false; code: null };
+
+    if (response.correct) {
+      result = `Correct Answer! Code = ${response.code}`;
+    } else {
+      error = 'Wrong Answer';
+    }
+
+    loading = false;
+    return;
   }
 </script>
 

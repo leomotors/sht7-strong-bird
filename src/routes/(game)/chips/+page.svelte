@@ -1,5 +1,6 @@
 <h1 class="font-bold text-5xl">CHIPS Challenge</h1>
 <p class="text-3xl">ในนี้มีตั๋วกี่ใบไม่รู้ซ่อนอยู่</p>
+<p>เผื่อไม่รู้ เอาโค้ดไปแลกหน้า eventpop</p>
 
 <iframe
   width="560"

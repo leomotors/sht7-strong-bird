@@ -11,27 +11,39 @@
   <h1 class="font-bold text-3xl">sht7 strong bird</h1>
   <h2 class="font-bold text-2xl">only the strong shall achieve the ticket</h2>
 
-  <p class="mb-8">
+  <p>
     Choose any challenge from below. If ticket's status is secured, it mean no
     one have seen the code yet.
   </p>
 
-  <section>
-    <a href="/flowchart">
-      <button>Flowchart นรก (2 Tickets)</button>
-    </a>
+  <div class="flex flex-col gap-8 my-8 items-center">
+    <section>
+      <a href="/flowchart">
+        <button>Flowchart นรก (2 Tickets)</button>
+      </a>
 
-    <TicketStatus label="Flowchart A" exposed={data.tickets.flowchart_A} />
-    <TicketStatus label="Flowchart B" exposed={data.tickets.flowchart_B} />
-  </section>
+      <TicketStatus label="Flowchart A" exposed={data.tickets.flowchart_A} />
+      <TicketStatus label="Flowchart B" exposed={data.tickets.flowchart_B} />
+    </section>
 
-  <section>
-    <a href="/chips">
-      <button>CHIPS Challenge (??? Tickets)</button>
-    </a>
-  </section>
+    <section>
+      <a href="/chips">
+        <button>CHIPS Challenge (??? Tickets)</button>
+      </a>
+    </section>
 
-  <p class="mt-8">Your User Id (=== Your Password) = {$page.data.userId}</p>
+    <section>
+      <button>(TODO) Quiz Challenge (3 Tickets)</button>
+    </section>
+
+    <section>
+      <button>Magical Music Maid Cafe by SaltyAom (2 Tickets)</button>
+
+      <p>The only not โง่ challenge in this batch. Require creativity</p>
+    </section>
+  </div>
+
+  <p>Your User Id (=== Your Password) = {$page.data.userId}</p>
 </main>
 
 <style lang="scss">

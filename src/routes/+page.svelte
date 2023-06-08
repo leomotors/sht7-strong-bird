@@ -15,9 +15,9 @@
   </p>
 
   {#each data.tickets as ticket}
-    <div class="flex items-center justify-between gap-4">
+    <div>
       <a href="/{ticket.gameId}">
-        <button class="rounded-lg font-bold p-4 bg-blue-300 w-64">
+        <button>
           {ticket.title}
         </button>
       </a>
@@ -31,5 +31,21 @@
     </div>
   {/each}
 
+  <div>
+    <a href="/chips">
+      <button>CHIPS Challenge</button>
+    </a>
+  </div>
+
   <p>Your User Id (=== Your Password) = {$page.data.userId}</p>
 </main>
+
+<style lang="scss">
+  main > div {
+    @apply flex items-center justify-between gap-4;
+  }
+
+  button {
+    @apply w-64 rounded-lg bg-blue-300 p-4 font-bold;
+  }
+</style>

@@ -2,50 +2,46 @@
   import { page } from '$app/stores';
 
   import type { PageData } from './$types';
+  import TicketStatus from './TicketStatus.svelte';
 
   export let data: PageData;
+
+  console.log({ data });
 </script>
 
 <main class="flex flex-col items-center gap-4 p-16 text-center">
   <h1 class="font-bold text-3xl">sht7 strong bird</h1>
   <h2 class="font-bold text-2xl">only the strong shall achieve the ticket</h2>
 
-  <p>
-    Choose any challenge from below. <b>One challenge only have One Ticket</b>
+  <p class="mb-8">
+    Choose any challenge from below. If ticket's status is secured, it mean no
+    one have seen the code yet.
   </p>
 
-  {#each data.tickets as ticket}
-    <div>
-      <a href="/{ticket.gameId}">
-        <button>
-          {ticket.title}
-        </button>
-      </a>
-      <p
-        class="p-3 rounded-lg border {ticket.exposed
-          ? 'border-yellow-500 bg-yellow-200'
-          : 'border-green-500 bg-green-200'}"
-      >
-        {ticket.exposed ? 'EXPOSED' : 'Secured'}
-      </p>
-    </div>
-  {/each}
-
-  <div>
-    <a href="/chips">
-      <button>CHIPS Challenge</button>
+  <section>
+    <a href="/flowchart">
+      <button>Flowchart นรก (2 Tickets)</button>
     </a>
-  </div>
 
-  <p>Your User Id (=== Your Password) = {$page.data.userId}</p>
+    <TicketStatus label="Flowchart A" exposed={data.tickets.flowchart_A} />
+    <TicketStatus label="Flowchart B" exposed={data.tickets.flowchart_B} />
+  </section>
+
+  <section>
+    <a href="/chips">
+      <button>CHIPS Challenge (??? Tickets)</button>
+    </a>
+  </section>
+
+  <p class="mt-8">Your User Id (=== Your Password) = {$page.data.userId}</p>
 </main>
 
 <style lang="scss">
-  main > div {
-    @apply flex items-center justify-between gap-4;
+  section {
+    @apply flex w-full flex-col items-center gap-2;
   }
 
   button {
-    @apply w-64 rounded-lg bg-blue-300 p-4 font-bold;
+    @apply rounded-lg bg-blue-300 p-4 font-bold;
   }
 </style>

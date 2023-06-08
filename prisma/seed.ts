@@ -1,22 +1,40 @@
 import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
+await prisma.challenge.createMany({
+  data: [
+    {
+      challengeId: 'flowchart',
+      title: 'Flowchart นรก',
+    },
+    {
+      challengeId: 'anime_captcha',
+      title: 'Anime Captcha',
+    },
+  ],
+});
+
 await prisma.ticket.createMany({
   data: [
     {
-      gameId: 'flowchart_a',
-      title: 'Flowchart นรก',
+      challengeId: 'flowchart',
+      name: 'A',
       code: 'MOCK_FLOWCHART_A',
     },
     {
-      gameId: 'flowchart_b',
-      title: 'Flowchart นรก',
+      challengeId: 'flowchart',
+      name: 'B',
       code: 'MOCK_FLOWCHART_B',
     },
     {
-      gameId: 'anime_captcha',
-      title: 'Anime Captcha',
-      code: 'MOCK_ANIME_CAPTCHA',
+      challengeId: 'anime_captcha',
+      name: 'A',
+      code: 'MOCK_ANIMECAPTCHA_A',
+    },
+    {
+      challengeId: 'anime_captcha',
+      name: 'B',
+      code: 'MOCK_ANIMECAPTCHA_B',
     },
   ],
 });

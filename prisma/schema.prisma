@@ -10,10 +10,21 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Ticket {
-  gameId  String  @unique @map("game_id")
+model Challenge {
+  challengeId String @unique @map("challenge_id")
+
   title   String
-  code    String
+  tickets Ticket[]
+
+  @@map("challenge")
+}
+
+model Ticket {
+  challengeId String    @map("challenge_id")
+  challenge   Challenge @relation(fields: [challengeId], references: [challengeId])
+
+  code    String  @unique
+  name    String
   exposed Boolean @default(false)
 
   @@map("ticket")
@@ -22,33 +33,5 @@ model Ticket {
 model User {
   id String @id @default(cuid())
 
-  yellowQuiz YellowQuiz?
-  pieyon     Pieyon?
-
   @@map("user")
-}
-
-// Challenges
-
-model YellowQuiz {
-  userId String @id @map("user_id")
-  user   User   @relation(fields: [userId], references: [id])
-
-  completed Boolean @default(false)
-
-  currentQuiz Int @default(0) @map("current_quiz")
-
-  @@map("yellow_quiz")
-}
-
-model Pieyon {
-  userId String @id @map("user_id")
-  user   User   @relation(fields: [userId], references: [id])
-
-  completed Boolean @default(false)
-
-  heartbeats    Int      @default(0)
-  lastHeartbeat DateTime @default("1970-01-01T00:00:00Z") @map("last_heartbeat")
-
-  @@map("pieyon")
 }

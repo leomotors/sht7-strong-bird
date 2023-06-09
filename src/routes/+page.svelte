@@ -33,13 +33,23 @@
     </section>
 
     <section>
+      <a href="/quiz">
+        <button>Stupid Quiz (2 Tickets)</button>
+      </a>
+    </section>
+
+    <section>
       <button>(TODO) Quiz Challenge (3 Tickets)</button>
     </section>
 
     <section>
-      <button>Magical Music Maid Cafe by SaltyAom (2 Tickets)</button>
-
-      <p>The only not โง่ challenge in this batch. Require creativity</p>
+      <a
+        href="https://github.com/SaltyAom/sht7-magical-music-maid-cafe"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button>Magical Music Maid Cafe by SaltyAom (2 Tickets)</button>
+      </a>
     </section>
   </div>
 

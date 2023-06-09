@@ -30,16 +30,18 @@
       <a href="/chips">
         <button>CHIPS Challenge (??? Tickets)</button>
       </a>
+
+      <TicketStatus exposed={undefined} />
     </section>
 
     <section>
       <a href="/quiz">
-        <button>Stupid Quiz (2 Tickets)</button>
+        <button>Stupid Quiz (3 Tickets)</button>
       </a>
-    </section>
 
-    <section>
-      <button>(TODO) Quiz Challenge (3 Tickets)</button>
+      <TicketStatus label="Quiz A" exposed={data.tickets.quiz_A} />
+      <TicketStatus label="Quiz B" exposed={data.tickets.quiz_B} />
+      <TicketStatus label="Quiz C" exposed={data.tickets.quiz_C} />
     </section>
 
     <section>
@@ -50,10 +52,10 @@
       >
         <button>Magical Music Maid Cafe by SaltyAom (2 Tickets)</button>
       </a>
+
+      <TicketStatus exposed={undefined} />
     </section>
   </div>
-
-  <p>Your User Id (=== Your Password) = {$page.data.userId}</p>
 </main>
 
 <style lang="scss">

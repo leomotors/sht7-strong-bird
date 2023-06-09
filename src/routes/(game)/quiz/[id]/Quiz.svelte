@@ -12,7 +12,7 @@
       <button
         on:click={() => (selection = choice)}
         class="rounded-lg p-4 max-w-lg {selection === choice
-          ? 'bg-blue-500'
+          ? 'bg-blue-400'
           : 'bg-gray-100'}"
       >
         {choice}

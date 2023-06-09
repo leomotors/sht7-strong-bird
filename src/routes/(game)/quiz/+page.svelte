@@ -10,4 +10,5 @@
 <p>
   <a href="/quiz/A">Quiz A</a>
   <a href="/quiz/B">Quiz B</a>
+  <a href="/quiz/C">Quiz C</a>
 </p>

@@ -39,6 +39,7 @@
     <div class="buttons">
       <button
         on:click={() => (currentQuestion = Math.max(0, currentQuestion - 1))}
+        disabled={currentQuestion === 0}
       >
         Back
       </button>
@@ -48,6 +49,7 @@
             data.quiz.questions.length - 1,
             currentQuestion + 1
           ))}
+        disabled={currentQuestion === data.quiz.questions.length - 1}
       >
         Next
       </button>
@@ -66,11 +68,11 @@
     @apply flex justify-center gap-2;
 
     & > button {
-      @apply select-none rounded-lg bg-gray-100 px-4 py-2 transition-colors enabled:hover:bg-gray-200;
+      @apply select-none rounded-lg bg-gray-100 px-4 py-2 transition-colors enabled:bg-gray-200 enabled:hover:bg-gray-300 disabled:cursor-not-allowed;
     }
 
     & > button:last-child {
-      @apply enabled:bg-blue-500 enabled:hover:bg-blue-600 disabled:cursor-not-allowed;
+      @apply enabled:bg-blue-500 enabled:hover:bg-blue-600;
     }
   }
 </style>

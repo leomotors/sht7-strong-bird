@@ -1,6 +1,7 @@
 import { error, json, type RequestHandler } from '@sveltejs/kit';
 
 import { getQuizById } from './quiz';
+import { prisma } from '$lib/db';
 import { isGoodSlug } from '$lib/slug';
 
 export const POST = (async ({ params, request }) => {
@@ -21,7 +22,23 @@ export const POST = (async ({ params, request }) => {
   const correct = answers.every((a, i) => a === keys[i]);
 
   if (correct) {
-    return json({ correct: true, code: 'GEAN' });
+    const ticket = await prisma.ticket.findFirstOrThrow({
+      where: {
+        challengeId: 'quiz',
+        name: params.id,
+      },
+    });
+
+    await prisma.ticket.update({
+      where: {
+        code: ticket.code,
+      },
+      data: {
+        exposed: true,
+      },
+    });
+
+    return json({ correct: true, code: ticket.code });
   } else {
     return json({ correct: false });
   }

@@ -33,7 +33,7 @@ export function getClientQuiz(id: string) {
 }
 
 export async function hashAnswer(answer: string[]) {
-  const str = answer.join('');
+  const str = answer.join('__SECRET_SEP__');
 
   const buf = await crypto.subtle.digest(
     'SHA-256',

@@ -27,6 +27,7 @@ export function getClientQuiz(id: string) {
 
   return {
     name: quiz.name,
+    description: quiz.description,
     questions: processedQuestion,
   };
 }

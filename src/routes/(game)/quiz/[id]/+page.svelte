@@ -26,42 +26,38 @@
   }
 </script>
 
-<main class="flex flex-col gap-4 p-8 items-center">
-  <h1 class="font-bold text-3xl">{data.quiz.name}</h1>
+<h1 class="font-bold text-3xl">{data.quiz.name}</h1>
+<p class="text-xl">{data.quiz.description}</p>
 
-  <div class="my-8 flex flex-col gap-4">
-    <Quiz
-      question="ข้อที่ {currentQuestion + 1}. {question}"
-      {choices}
-      bind:selection={selections[currentQuestion]}
-    />
+<div class="my-8 flex flex-col gap-4">
+  <Quiz
+    question="ข้อที่ {currentQuestion + 1}. {question}"
+    {choices}
+    bind:selection={selections[currentQuestion]}
+  />
 
-    <div class="buttons">
-      <button
-        on:click={() => (currentQuestion = Math.max(0, currentQuestion - 1))}
-        disabled={currentQuestion === 0}
-      >
-        Back
-      </button>
-      <button
-        on:click={() =>
-          (currentQuestion = Math.min(
-            data.quiz.questions.length - 1,
-            currentQuestion + 1
-          ))}
-        disabled={currentQuestion === data.quiz.questions.length - 1}
-      >
-        Next
-      </button>
-      <button
-        on:click={() => handleSubmit()}
-        disabled={selections.includes('')}
-      >
-        Submit
-      </button>
-    </div>
+  <div class="buttons">
+    <button
+      on:click={() => (currentQuestion = Math.max(0, currentQuestion - 1))}
+      disabled={currentQuestion === 0}
+    >
+      Back
+    </button>
+    <button
+      on:click={() =>
+        (currentQuestion = Math.min(
+          data.quiz.questions.length - 1,
+          currentQuestion + 1
+        ))}
+      disabled={currentQuestion === data.quiz.questions.length - 1}
+    >
+      Next
+    </button>
+    <button on:click={() => handleSubmit()} disabled={selections.includes('')}>
+      Submit
+    </button>
   </div>
-</main>
+</div>
 
 <style lang="scss">
   .buttons {

@@ -31,3 +31,16 @@ export function getClientQuiz(id: string) {
     questions: processedQuestion,
   };
 }
+
+export async function hashAnswer(answer: string[]) {
+  const str = answer.join('');
+
+  const buf = await crypto.subtle.digest(
+    'SHA-256',
+    new TextEncoder().encode(str)
+  );
+
+  return Array.prototype.map
+    .call(new Uint8Array(buf), (x) => ('00' + x.toString(16)).slice(-2))
+    .join('');
+}

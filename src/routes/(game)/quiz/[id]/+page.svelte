@@ -2,6 +2,7 @@
   import { goto } from '$app/navigation';
   import type { PageData } from './$types';
   import Quiz from './Quiz.svelte';
+  import { hashAnswer } from './quiz';
 
   export let data: PageData;
 
@@ -13,7 +14,9 @@
   async function handleSubmit() {
     const { correct, code } = (await fetch(`/quiz/${data.id}`, {
       method: 'POST',
-      body: JSON.stringify(selections),
+      body: JSON.stringify({
+        answers: await hashAnswer(selections),
+      }),
     }).then((r) => r.json())) as
       | { correct: true; code: string }
       | { correct: false; code: never };

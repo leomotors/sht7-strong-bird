@@ -29,9 +29,3 @@ model Ticket {
 
   @@map("ticket")
 }
-
-model User {
-  id String @id @default(cuid())
-
-  @@map("user")
-}

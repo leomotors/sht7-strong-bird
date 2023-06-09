@@ -12,13 +12,6 @@ CREATE TABLE "ticket" (
     "exposed" BOOLEAN NOT NULL DEFAULT false
 );
 
--- CreateTable
-CREATE TABLE "user" (
-    "id" TEXT NOT NULL,
-
-    CONSTRAINT "user_pkey" PRIMARY KEY ("id")
-);
-
 -- CreateIndex
 CREATE UNIQUE INDEX "challenge_challenge_id_key" ON "challenge"("challenge_id");
 

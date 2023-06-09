@@ -1,0 +1,89 @@
+[
+  {
+    "name": "คำถามโง่ ๆ",
+    "questions": [
+      {
+        "question": "ใครเป็นคนจัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand",
+        "correct": "Creatorsgarten",
+        "wrong": ["พรรคก้าวไกล", "สมาคมโปรแกรมเมอร์ไทย", "กลุ่มนักเขียนโปรแกรม"]
+      },
+      {
+        "question": "เว็บไซต์หน้าหลักของงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand คือเว็บไซต์ใด",
+        "correct": "https://stupidhackth.github.io/7",
+        "wrong": [
+          "https://sht7.creatorsgarten.org",
+          "https://creatorsgarten.org/event/sht7",
+          "https://stupidhackth.github.io/6"
+        ]
+      },
+      {
+        "question": "ผลงานใดในงาน SHiT๖ ที่ได้รับรางวัล MOST AESTHETICALLY PLEASING AWARD",
+        "correct": "บ้านสีเหลือง",
+        "wrong": ["TAOLOI", "OMYIM", "LUUNGLUUNGLUUNG"]
+      },
+      {
+        "question": "หากอยากได้โดเมน .ไทย ต้องทำการจดโดเมนที่เว็บไซต์ใด",
+        "correct": "https://thnic.co.th",
+        "wrong": [
+          "https://thinc.in.th",
+          "https://www.godaddy.com",
+          "https://www.cloudflare.com"
+        ]
+      },
+      {
+        "question": "ชื่อพี่ Pub สะกดเป็นภาษาไทยยังไง",
+        "correct": "ปั๊บ",
+        "wrong": ["ปั๊ป", "ปั้ป", "ปั็บ"]
+      },
+      {
+        "question": "ข้อใดมีสระ แ",
+        "correct": "เเเเเเเเเเเแเเเเเเ",
+        "wrong": ["เเเเเเเเเเเเเเเ", "เเเเเเเเเเเเเเ", "เเ"]
+      },
+      {
+        "question": "คำถามชุดนี้มีกี่ข้อ",
+        "correct": "TODO",
+        "wrong": ["TODO", "TODO", "TODO"]
+      },
+      {
+        "question": "โอกาสตอบถูกหนึ่งในสี่",
+        "correct": "จริงพี่",
+        "wrong": ["จริงพี่", "จริงพี่", "จริงพี่"]
+      },
+      {
+        "question": "งาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand จัดวันที่เท่าไหร่",
+        "correct": "๒๔ - ๒๕ มิถุนายน ๒๕๖๖",
+        "wrong": [
+          "๒๓ - ๒๔ มิถุนายน ๒๕๖๖",
+          "๒๕ - ๒๖ มิถุนายน ๒๕๖๖",
+          "๒๔ - ๒๕ กรกฎาคม ๒๕๖๖"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "คำถามวัดดวง",
+    "questions": [
+      {
+        "question": "โอกาสตอบถูกหนึ่งในสี่",
+        "correct": "จริงพี่ ",
+        "wrong": ["จริงพี่", "จริงพี่", "จริงพี่"]
+      },
+      {
+        "question": "โอกาสตอบถูกหนึ่งในสี่",
+        "correct": "จริงพี่ ",
+        "wrong": ["จริงพี่", "จริงพี่", "จริงพี่"]
+      },
+      {
+        "question": "โอกาสตอบถูกหนึ่งในสี่",
+        "correct": "จริงพี่ ",
+        "wrong": ["จริงพี่", "จริงพี่", "จริงพี่"]
+      },
+      {
+        "question": "โอกาสตอบถูกหนึ่งในสี่",
+        "correct": "จริงพี่ ",
+        "wrong": ["จริงพี่", "จริงพี่", "จริงพี่"]
+      }
+    ]
+  }
+]

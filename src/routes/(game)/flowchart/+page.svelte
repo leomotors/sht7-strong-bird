@@ -13,3 +13,9 @@
   <a href="/flowchart/A">Question A</a>
   <a href="/flowchart/B">Question B</a>
 </p>
+
+<style lang="scss">
+  a {
+    @apply mx-4 rounded-lg bg-green-200 p-4 text-xl font-bold;
+  }
+</style>

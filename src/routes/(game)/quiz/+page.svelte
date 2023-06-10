@@ -12,3 +12,9 @@
   <a href="/quiz/B">Quiz B</a>
   <a href="/quiz/C">Quiz C</a>
 </p>
+
+<style lang="scss">
+  a {
+    @apply mx-4 rounded-lg bg-green-200 p-4 text-xl font-bold;
+  }
+</style>

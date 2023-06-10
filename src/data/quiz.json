@@ -18,18 +18,37 @@
         ]
       },
       {
+        "question": "งาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand จัดวันที่เท่าไหร่",
+        "correct": "๒๔ - ๒๕ มิถุนายน ๒๕๖๖",
+        "wrong": [
+          "๒๓ - ๒๔ มิถุนายน ๒๕๖๖",
+          "๒๕ - ๒๖ มิถุนายน ๒๕๖๖",
+          "๒๔ - ๒๕ กรกฎาคม ๒๕๖๖"
+        ]
+      },
+      {
+        "question": "สถานที่จัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand คือที่ไหน",
+        "correct": "KX - Knowledge Exchange for Innovation",
+        "wrong": [
+          "มหาวิทยาลัยหอการค้าไทย",
+          "จุฬาลงกรณ์มหาวิทยาลัย",
+          "โรงเรียนอัสสัมชัญสมุทรปราการ"
+        ]
+      },
+      {
+        "question": "ไม่ได้เป็น programmer เข้าร่วมงานนี้ได้ไหม",
+        "correct": "ได้",
+        "wrong": ["ไม่ได้"]
+      },
+      {
         "question": "ผลงานใดในงาน SHiT๖ ที่ได้รับรางวัล MOST AESTHETICALLY PLEASING AWARD",
         "correct": "บ้านสีเหลือง",
         "wrong": ["TAOLOI", "OMYIM", "LUUNGLUUNGLUUNG"]
       },
       {
-        "question": "หากอยากได้โดเมน .ไทย ต้องทำการจดโดเมนที่เว็บไซต์ใด",
-        "correct": "https://thnic.co.th",
-        "wrong": [
-          "https://thinc.in.th",
-          "https://www.godaddy.com",
-          "https://www.cloudflare.com"
-        ]
+        "question": "อะไรที่ไม่ได้ปรากฏอยู่ในโปสเตอร์ของงาน SHiT๖",
+        "correct": "Rustacean",
+        "wrong": ["ชัชชาติ", "amogus", "ท่านศาสดาชมรม"]
       },
       {
         "question": "ชื่อพี่ Pub สะกดเป็นภาษาไทยยังไง",
@@ -43,21 +62,100 @@
       },
       {
         "question": "คำถามชุดนี้มีกี่ข้อ",
-        "correct": "TODO",
-        "wrong": ["TODO", "TODO", "TODO"]
+        "correct": "20 ข้อ",
+        "wrong": ["19 ข้อ", "21 ข้อ", "22 ข้อ"]
       },
       {
-        "question": "โอกาสตอบถูกหนึ่งในสี่",
-        "correct": "จริงพี่",
-        "wrong": ["จริงพี่", "จริงพี่", "จริงพี่"]
+        "question": "เว็บไซต์หลักของงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand ใช้อะไรเขียน",
+        "correct": "Astro",
+        "wrong": ["Next.js", "Svelte", "Kotchasan"]
       },
       {
-        "question": "งาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand จัดวันที่เท่าไหร่",
-        "correct": "๒๔ - ๒๕ มิถุนายน ๒๕๖๖",
+        "question": "เว็บไซต์หลักของงาน SHiT๖ ใช้อะไรเขียน",
+        "correct": "Svelte",
+        "wrong": ["Next.js", "Astro", "Kotchasan"]
+      },
+      {
+        "question": "ชื่อเต็มของงาน Stupid Hack ครั้งที่ 6 ชื่ออะไร",
+        "correct": "The ៦th Stupid Hackathon Thailand",
         "wrong": [
-          "๒๓ - ๒๔ มิถุนายน ๒๕๖๖",
-          "๒๕ - ๒๖ มิถุนายน ๒๕๖๖",
-          "๒๔ - ๒๕ กรกฎาคม ๒๕๖๖"
+          "The ๖th Stupid Hackathon Thailand",
+          "The โง่ Hackathon ครั้งที่ ๖ แห่งประเทศ Thailand",
+          "The โง่ Hackathon ครั้งที่ 6 แห่งประเทศ Thailand"
+        ]
+      },
+      {
+        "question": "Vision Pro เปิดตัวที่ราคาเท่าใด",
+        "correct": "3499$",
+        "wrong": ["2999$", "3999$", "4999$"]
+      },
+      {
+        "question": "ในงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand ตั๋ว Super Early Bird ปล่อยตอนกี่โมง",
+        "correct": "4:20",
+        "wrong": ["3:00", "6:09", "9:00"]
+      },
+      {
+        "question": "ในงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand ตั๋ว Super Early Bird Part 2 ปล่อยตอนกี่โมง",
+        "correct": "13:37",
+        "wrong": ["4:20", "12:00", "15:00"]
+      },
+      {
+        "question": "หมาที่อยู่ในภาพพื้นหลังหน้า eventpop ของงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand ชื่ออะไร",
+        "correct": "เตี้ย",
+        "wrong": ["ตู่", "ป้อม", "สูง"]
+      },
+      {
+        "question": "เมื่อคุณถึงสถานที่จัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand สิ่งแรกที่คุณควรทำคืออะไร",
+        "correct": "ลงทะเบียนเข้างานกับ Staff",
+        "wrong": ["กระโดดถีบ Staff", "ไม่รู้"]
+      },
+      {
+        "question": "สถานที่จัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand อยู่ประเทศอะไร",
+        "correct": "ไทย",
+        "wrong": ["ไต้หวัน", "จีน", "ญี่ปุ่น"]
+      },
+      {
+        "question": "สถานที่จัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand อยู่จังหวัดอะไร",
+        "correct": "กรุงเทพมหานคร",
+        "wrong": ["สมุทรปราการ", "นครศรีธรรมราช", "เชียงใหม่"]
+      },
+      {
+        "question": "สถานที่จัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand อยู่ใกล้กับ BTS สถานีอะไร",
+        "correct": "วงเวียนใหญ่",
+        "wrong": ["วงเวียนเล็ก", "สำโรง", "เคหะ"]
+      },
+      {
+        "question": "รถเมล์สายไหนไม่ผ่านหน้าสถานที่จัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand",
+        "correct": "888",
+        "wrong": ["76", "105", "120"]
+      },
+      {
+        "question": "หากคุณอยู่สยามและต้องการเดินทางมาสถานที่จัดงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand คุณสามารถเดินทางมาได้โดยวิธีใดได้บ้าง",
+        "correct": "ถูกทุกข้อ",
+        "wrong": ["BTS", "รถเมล์", "Taxi"]
+      },
+      {
+        "question": "Stupid Hackathon เคยจัดที่หลายประเทศมากกกกกก แต่ Original ของ Stupid Hackathon จัดขึ้นที่ไหน",
+        "correct": "New York",
+        "wrong": ["San Francisco", "Shanghai", "Bangkok"]
+      },
+      {
+        "question": "เว็บไซต์นี้เขียนด้วยอะไร",
+        "correct": "SvelteKit",
+        "wrong": ["Next.js", "Astro", "Kotchasan"]
+      },
+      {
+        "question": "Kotchasan เป็นเฟรมเวิร์กของภาษาใด",
+        "correct": "PHP",
+        "wrong": ["C++", "JavaScript", "Java"]
+      },
+      {
+        "question": "วิดีโอใดไม่ใช่ Rickroll",
+        "correct": "https://www.youtube.com/watch?v=UIp6_0kct_U",
+        "wrong": [
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "https://www.youtube.com/watch?v=xvFZjo5PgG0",
+          "https://www.youtube.com/watch?v=oHg5SJYRHA0"
         ]
       }
     ]
@@ -85,6 +183,101 @@
         "question": "โอกาสตอบถูกหนึ่งในสี่",
         "correct": "จริงพี่ ",
         "wrong": ["จริงพี่  ", "จริงพี่   ", "จริงพี่    "]
+      }
+    ]
+  },
+  {
+    "name": "คำถามวิชาการ",
+    "description": "เกี่ยวกับวิชาการ วิชาอะไรก็ได้ที่อยากถาม",
+    "questions": [
+      {
+        "question": "หากอยากได้โดเมน .ไทย ต้องทำการจดโดเมนที่เว็บไซต์ใด",
+        "correct": "https://thnic.co.th",
+        "wrong": [
+          "https://thinc.in.th",
+          "https://www.godaddy.com",
+          "https://www.cloudflare.com"
+        ]
+      },
+      {
+        "question": "TLD ใด ไม่รองรับภาษาไทย",
+        "correct": ".me",
+        "wrong": [".net", ".com", ".uno"]
+      },
+      {
+        "question": "Node.js ปล่อยเวอร์ชันใหม่ (major) ทุก ๆ กี่เดือน",
+        "correct": "6 เดือน",
+        "wrong": ["3 เดือน", "12 เดือน", "24 เดือน"]
+      },
+      {
+        "question": "Java ปล่อยเวอร์ชันใหม่ (major) ทุก ๆ กี่เดือน",
+        "correct": "6 เดือน",
+        "wrong": ["3 เดือน", "12 เดือน", "24 เดือน"]
+      },
+      {
+        "question": "LTS ล่าสุดของ Node.js คือเวอร์ชันใด",
+        "correct": "18",
+        "wrong": ["16", "20", "22"]
+      },
+      {
+        "question": "อนุพันธ์ของ sin(cos(x)) เทียบ x คืออะไร",
+        "correct": "cos(cos(x)) * -sin(x)",
+        "wrong": ["cos(cos(x))", "cos(sin(x))", "-sin(sin(x))"]
+      },
+      {
+        "question": "ฟังก์ชันนี้เป็นฟังก์ชันเอกพันธุ์ดีกรีอะไร f(x, y) = 2x³y - 3x²y",
+        "correct": "ไม่เป็นฟังก์ชันเอกพันธุ์",
+        "wrong": ["ดีกรี 1", "40 ดีกรี", "ดีกรี -1"]
+      },
+      {
+        "question": "เลขควอนตัม (2, 1, -1, 1/2) แสดงถึงอิเล็กตรอนที่อยู่ใน orbital ใด",
+        "correct": "2p",
+        "wrong": ["2s", "2d", "2f"]
+      },
+      {
+        "question": "ความเร็วแสงในสูญญากาศคือ",
+        "correct": "299,792,458 m/s",
+        "wrong": ["300,000,000 m/s", "299,793,122 m/s", "299,792,458.69 m/s"]
+      },
+      {
+        "question": "ตัวเลขในข้อใดมีค่าใกล้เคียง π มากที่สุด",
+        "correct": "3.1415926535",
+        "wrong": ["3.142857142857", "22/7", "355/113"]
+      },
+      {
+        "question": "ในการพัฒนาเว็บไซต์ SPA ย่อมาจากอะไร",
+        "correct": "Single Page Application",
+        "wrong": ["สปา", "Source Page Application", "Single Push Application"]
+      },
+      {
+        "question": "import std.core; เป็นโค้ดภาษาอะไร",
+        "correct": "C++",
+        "wrong": ["Rust", "JavaScript", "Python"]
+      },
+      {
+        "question": "ระบบไฟล์ใน MacOS เป็นแบบ Case Sensitive",
+        "correct": "ไม่จริงพี่",
+        "wrong": ["จริงพี่"]
+      },
+      {
+        "question": "ใครเป็นเจ้าของเว็บไซต์ GitHub ในปัจจุบัน",
+        "correct": "Microsoft",
+        "wrong": ["Google", "Facebook", "P**nHub"]
+      },
+      {
+        "question": "ข้อใดแตกต่างจากพวก",
+        "correct": "DKG",
+        "wrong": ["EKS", "GKE", "AKS"]
+      },
+      {
+        "question": "ค่าศักย์มาตรฐานของครึ่งเซลล์ไฮโดรเจนมาตรฐานมีค่ากี่โวลต์",
+        "correct": "0.00 V",
+        "wrong": ["-0.36V", "0.36V", "0.84V"]
+      },
+      {
+        "question": "0 องศาเซลเซียสเท่ากับกี่เคลวิน",
+        "correct": "273.15 K",
+        "wrong": ["0 K", "273 K", "298 K"]
       }
     ]
   }

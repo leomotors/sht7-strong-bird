@@ -62,8 +62,8 @@
       },
       {
         "question": "คำถามชุดนี้มีกี่ข้อ",
-        "correct": "20 ข้อ",
-        "wrong": ["19 ข้อ", "21 ข้อ", "22 ข้อ"]
+        "correct": "30 ข้อ",
+        "wrong": ["25 ข้อ", "27 ข้อ", "35 ข้อ"]
       },
       {
         "question": "เว็บไซต์หลักของงาน The โง่ Hackathon ครั้งที่ 7 แห่งประเทศ Thailand ใช้อะไรเขียน",
@@ -157,6 +157,25 @@
           "https://www.youtube.com/watch?v=xvFZjo5PgG0",
           "https://www.youtube.com/watch?v=oHg5SJYRHA0"
         ]
+      },
+      {
+        "question": "ข้อใดไม่ถูกต้องเกี่ยวกับ Creatorsgarten",
+        "correct": "เว็บไซต์ creatorsgarten.org เขียนด้วย Next.js",
+        "wrong": [
+          "งานแรกที่จัดคือ The Stupid Hackathon Bangkok",
+          "ชื่อ Creatorsgarten ถูกเปิดตัวในงาน Stupid Hack ครั้งที่ 6",
+          "Bangkok Open Source Hackathon จัดโดย Creatorsgarten"
+        ]
+      },
+      {
+        "question": "งาน Hacktoberfest Thailand จัดขึ้นทุกเดือนอะไร",
+        "correct": "ตุลาคม",
+        "wrong": ["กันยายน", "พฤศจิกายน", "ธันวาคม"]
+      },
+      {
+        "question": "ใน Hacktoberfest ปีที่ผ่านมา คุณต้องส่ง PR สำเร็จกี่อันจึงจะได้เสื้อ",
+        "correct": "4",
+        "wrong": ["3", "5", "6"]
       }
     ]
   },
@@ -272,12 +291,90 @@
       {
         "question": "ค่าศักย์มาตรฐานของครึ่งเซลล์ไฮโดรเจนมาตรฐานมีค่ากี่โวลต์",
         "correct": "0.00 V",
-        "wrong": ["-0.36V", "0.36V", "0.84V"]
+        "wrong": ["-0.36 V", "0.36 V", "0.84 V"]
       },
       {
         "question": "0 องศาเซลเซียสเท่ากับกี่เคลวิน",
         "correct": "273.15 K",
         "wrong": ["0 K", "273 K", "298 K"]
+      },
+      {
+        "question": "โปรตอนมีมวลเท่าไหร่",
+        "correct": "1.00728 amu",
+        "wrong": ["1.00000 amu", "1.00022 amu", "1.00673 amu"]
+      },
+      {
+        "question": "บริการ VM ของ DigitalOcean มีชื่อว่าอะไร",
+        "correct": "Droplet",
+        "wrong": [
+          "Virtual Machine Service",
+          "Elastic Compute",
+          "Compute Engine"
+        ]
+      },
+      {
+        "question": "หน่วยงานใดของประเทศไทยที่รับผิดชอบเกี่ยวกับการคุ้มครองข้อมูลส่วนบุคคล (PDPA)",
+        "correct": "สคส.",
+        "wrong": ["สสส.", "กอ.รมน.", "บชสอท."]
+      },
+      {
+        "question": "PDPA ในยุโรปมีชื่อว่าอะไร",
+        "correct": "GDPR",
+        "wrong": ["EUPDPA", "EUPA", "EDPR"]
+      },
+      {
+        "question": "Pedometer คืออะไร",
+        "correct": "เครื่องนับก้าว",
+        "wrong": [
+          "เครื่องตรวจจับภัยสังคม",
+          "คีย์ความปลอดภัย",
+          "เครื่องวัดอัตราการเต้นของหัวใจ"
+        ]
+      },
+      {
+        "question": "Apple Silicon ใช้สถาปัตยกรรมแบบใด",
+        "correct": "ARM",
+        "wrong": ["AMD", "RDNA", "PowerPC"]
+      },
+      {
+        "question": "Windows 11 เวอร์ชัน 22H2 มีเลขเวอร์ชันใด",
+        "correct": "10.0",
+        "wrong": ["11.0", "10.1", "11.1"]
+      },
+      {
+        "question": "Windows 11 เวอร์ชัน 22H2 มีเลข Build ใด",
+        "correct": "22621",
+        "wrong": ["22620", "22622", "22624"]
+      },
+      {
+        "question": "คุณสามารถใช้ EC2 ได้ฟรีถาวร",
+        "correct": "ไม่จริงพี่",
+        "wrong": ["จริงพี่"]
+      },
+      {
+        "question": "MacOS 14 มีชื่อว่าอะไร",
+        "correct": "Sonoma",
+        "wrong": ["Soma", "Sanoma", "Sama"]
+      },
+      {
+        "question": "ข้อใดไม่ใช่ Algorithm สำหรับการหา Shortest Path",
+        "correct": "Kruskal",
+        "wrong": ["Dijkstra", "Bellman-Ford", "Floyd-Warshall"]
+      },
+      {
+        "question": "Prim's Algorithm ไว้ใช้แก้ปัญหาอะไร",
+        "correct": "Minimum Spanning Tree",
+        "wrong": ["Shortest Path", "LIS", "LCA"]
+      },
+      {
+        "question": "What is the \"8-bit Two's Complement\" bit pattern representing a decimal value of -15?",
+        "correct": "11110001",
+        "wrong": ["00001111", "11110000", "11110010"]
+      },
+      {
+        "question": "0.5! = ?",
+        "correct": "sqrt(pi) / 2",
+        "wrong": ["pi / 2", "1", "0"]
       }
     ]
   }

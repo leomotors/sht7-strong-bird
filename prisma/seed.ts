@@ -22,27 +22,27 @@ await prisma.ticket.createMany({
     {
       challengeId: flowchart,
       name: 'A',
-      code: 'MOCK_FLOWCHART_A',
+      code: 'ASAHINA_MAFUYU_SENPAI',
     },
     {
       challengeId: flowchart,
       name: 'B',
-      code: 'MOCK_FLOWCHART_B',
+      code: 'HELLO_IM_EMU_OOTORI_EMU_IS_MEANING_SMILE',
     },
     {
       challengeId: quiz,
       name: 'A',
-      code: 'MOCK_QUIZ_A',
+      code: 'CONGRATULATION_FOR_COMPLETING_STUPID_QUIZ',
     },
     {
       challengeId: quiz,
       name: 'B',
-      code: 'MOCK_QUIZ_B',
+      code: 'CAFFELATTECAFFEMOCHACAPPUCHINO',
     },
     {
       challengeId: quiz,
       name: 'C',
-      code: 'MOCK_QUIZ_C',
+      code: 'MIKASA_HACKERMAN',
     },
   ],
 });

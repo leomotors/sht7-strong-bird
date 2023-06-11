@@ -7,11 +7,11 @@
   answer all the questions correctly. One wrong answer, you need to do it again.
 </p>
 
-<p>
-  <a href="/quiz/A">Quiz A</a>
-  <a href="/quiz/B">Quiz B</a>
-  <a href="/quiz/C">Quiz C</a>
-</p>
+<div class="flex flex-col gap-2 items-center">
+  <a href="/quiz/A">Quiz A - คำถามโง่ ๆ</a>
+  <a href="/quiz/B">Quiz B - คำถามวัดดวง</a>
+  <a href="/quiz/C">Quiz C - คำถามวิชาการ</a>
+</div>
 
 <style lang="scss">
   a {

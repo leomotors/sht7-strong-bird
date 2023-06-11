@@ -2,4 +2,10 @@
 
 Tech Stack: SvelteKit + Prisma
 
-User Auth: Save user id in cookie
+## Ticket Status
+
+As of 11 June,
+
+All sold out _except for CHIPS Challenge_
+
+Good luck finding hidden tickets in that video!
